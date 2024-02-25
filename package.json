@@ -3,13 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main":"src/components/server.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "start":"node src/components/server.js"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
